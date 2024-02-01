@@ -52,9 +52,10 @@ function ListItem1() {
   return (
     <div className='flex grow items-center justify-between rounded-[1.2rem] border-accent bg-blue-400 p-2 px-3 font-medium'>
       <div className='flex items-center justify-around gap-3'>
-        <div className='flex aspect-square items-center justify-center rounded-full bg-blue-500 px-3 text-center text-sm font-medium'>
+        {/* <div className='flex aspect-square items-center justify-center rounded-full bg-white px-3 text-center text-sm font-extrabold'>
           1
-        </div>
+        </div> */}
+        <img src='/r1.png' alt='' className='aspect-square w-9' />
         <img src='https://picsum.photos/50' alt='' className='aspect-square w-9 rounded-full bg-blue-500' />
         <div className='text-sm text-black/70'>123456789</div>
       </div>
@@ -73,9 +74,7 @@ function ListItem2() {
   return (
     <div className='flex grow items-center justify-between rounded-[1.2rem] border-accent bg-green-400 p-2 px-3 font-medium text-gray-900'>
       <div className='flex items-center justify-around gap-3'>
-        <div className='flex aspect-square items-center justify-center rounded-full bg-green-500 px-3 text-center text-sm font-medium text-black/70'>
-          1
-        </div>
+        <img src='/r2.png' alt='' className='aspect-square w-9' />
         <img src='https://picsum.photos/50' alt='' className='aspect-square w-9 rounded-full bg-blue-500' />
         <div className='text-sm text-black/70'>123456789</div>
       </div>
@@ -94,9 +93,8 @@ function ListItem3() {
   return (
     <div className='flex grow items-center justify-between rounded-[1.2rem] border-accent bg-red-400 p-2 px-3 font-medium text-gray-900'>
       <div className='flex items-center justify-around gap-3'>
-        <div className='flex aspect-square items-center justify-center rounded-full bg-red-500 px-3 text-center text-sm font-medium text-black/70'>
-          1
-        </div>
+        <img src='/r3.png' alt='' className='aspect-square w-9' />
+
         <img src='https://picsum.photos/50' alt='' className='aspect-square w-9 rounded-full bg-blue-500' />
         <div className='text-sm text-black/70'>123456789</div>
       </div>
