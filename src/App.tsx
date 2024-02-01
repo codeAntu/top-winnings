@@ -113,7 +113,7 @@ function ListItem() {
   return (
     <div className='flex grow items-center justify-between rounded-[1.2rem] border border-accent bg-accent-light p-2 px-3 font-medium text-gray-900'>
       <div className='flex items-center justify-around gap-3'>
-        <div className='flex aspect-square items-center justify-center rounded-full bg-accent px-3 text-center text-sm font-medium text-black/70'>
+        <div className='mx-1 flex aspect-square items-center justify-center rounded-full bg-accent px-2.5 text-center text-sm font-extrabold text-black/70'>
           1
         </div>
         <img src='https://picsum.photos/50' alt='' className='aspect-square w-9 rounded-full bg-blue-500' />
