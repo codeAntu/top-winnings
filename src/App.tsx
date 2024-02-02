@@ -56,7 +56,7 @@ function App() {
             </div>
             <div></div>
             <div className='flex items-center justify-around gap-4'>
-              <img src='trophy2.jpg' alt='' className='w-5 mix-blend-multiply' />
+              <img src='trophy.png' alt='' className='w-5' />
               <div className='flex items-center justify-center gap-1 rounded-full bg-blue-500 px-2 py-1 text-xs font-bold text-black/80 shadow-md shadow-accent-dark/20'>
                 <img src='coin.png' alt='' className='h-4 w-4' /> 1900.0
               </div>
@@ -70,7 +70,7 @@ function App() {
             </div>
             <div></div>
             <div className='flex items-center justify-around gap-4'>
-              <img src='trophy2.jpg' alt='' className='w-5 mix-blend-multiply' />
+              <img src='trophy.png' alt='' className='w-5' />
               <div className='flex items-center justify-center gap-1 rounded-full bg-green-500 px-2 py-1 text-xs font-bold text-black/80 shadow-md shadow-accent-dark/20'>
                 <img src='coin.png' alt='' className='h-4 w-4' /> 1900.0
               </div>
@@ -85,7 +85,7 @@ function App() {
             </div>
             <div></div>
             <div className='flex items-center justify-around gap-4'>
-              <img src='trophy2.jpg' alt='' className='w-5 mix-blend-multiply' />
+              <img src='trophy.png' alt='' className='w-5' />
               <div className='flex items-center justify-center gap-1 rounded-full bg-red-500 px-2 py-1 text-xs font-bold text-black/80 shadow-md shadow-accent-dark/20'>
                 <img src='coin.png' alt='' className='h-4 w-4' /> 1900.0
               </div>
@@ -101,7 +101,7 @@ function App() {
             </div>
             <div></div>
             <div className='flex items-center justify-around gap-4'>
-              <img src='trophy2.jpg' alt='' className='w-5 mix-blend-multiply' />
+              <img src='trophy.png' alt='' className='w-5' />
               <div className='flex items-center justify-center gap-1 rounded-full bg-accent px-2 py-1 text-xs font-bold text-black/80 shadow-md shadow-accent-dark/20'>
                 <img src='coin.png' alt='' className='h-4 w-4' /> 1900.0
               </div>
@@ -117,7 +117,7 @@ function App() {
             </div>
             <div></div>
             <div className='flex items-center justify-around gap-4'>
-              <img src='trophy2.jpg' alt='' className='w-5 mix-blend-multiply' />
+              <img src='trophy.png' alt='' className='w-5' />
               <div className='flex items-center justify-center gap-1 rounded-full bg-accent px-2 py-1 text-xs font-bold text-black/80 shadow-md shadow-accent-dark/20'>
                 <img src='coin.png' alt='' className='h-4 w-4' /> 1900.0
               </div>
@@ -133,7 +133,7 @@ function App() {
             </div>
             <div></div>
             <div className='flex items-center justify-around gap-4'>
-              <img src='trophy2.jpg' alt='' className='w-5 mix-blend-multiply' />
+              <img src='trophy.png' alt='' className='w-5' />
               <div className='flex items-center justify-center gap-1 rounded-full bg-accent px-2 py-1 text-xs font-bold text-black/80 shadow-md shadow-accent-dark/20'>
                 <img src='coin.png' alt='' className='h-4 w-4' /> 1900.0
               </div>

@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "prettier": "prettier --check . ",
     "prettier:fix": "prettier --write .",
-    "tailwind:build": "tailwindcss build -o dist/tailwind.css"
+    "tailwind:build": "tailwindcss build -o output/style.css"
   },
   "dependencies": {
     "react": "^18.2.0",
