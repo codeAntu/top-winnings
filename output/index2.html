@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" type="module" defer></script>
   </head>
   <body>
     <div class="min-h-[100dvh] bg-gradient-to-t from-accent-light/50 to-accent-light/90 bg-fixed pb-10">
@@ -53,8 +54,33 @@
           </div>
         </div>
       </div>
+      <div class="mb-2 mt-5 flex items-center justify-center px-5" data-timer="2024-02-07T14:24:14">
+        <div class="relative w-full rounded-xl bg-accent-light p-4 px-7 pt-3 text-black/80 shadow-xl">
+          <div class="flex items-start justify-between text-2xl font-bold tabular-nums">
+            <div class="flex flex-col items-center">
+              <p id="day">00</p>
+              <p class="text-xs font-bold">Days</p>
+            </div>
+            <p>:</p>
+            <div class="flex flex-col items-center">
+              <p id="hour">00</p>
+              <p class="text-xs font-bold">Hours</p>
+            </div>
+            <p>:</p>
+            <div class="flex flex-col items-center">
+              <p id="minute">00</p>
+              <p class="text-xs font-bold">Minutes</p>
+            </div>
+            <p>:</p>
+            <div class="flex flex-col items-center">
+              <p id="second">00</p>
+              <p class="text-xs font-bold">Second</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="px-4">
-        <div class="flex items-center justify-around pb-3 pt-6 text-sm font-semibold">
+        <div class="flex items-center justify-around pb-3 pt-2 text-sm font-semibold">
           <a class="w-[45%] rounded-full px-4 py-2 text-center text-black/70" href="index.html">Top Earners</a>
           <div
             class="active w-[45%] border-b-[3px] border-accent-dark py-2 text-center text-black/80 shadow-accent-light/70 active:opacity-70"

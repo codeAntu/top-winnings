@@ -34,8 +34,33 @@ function App() {
           </div>
         </div>
       </div>
+      <div className='mb-2 mt-5 flex items-center justify-center px-5'>
+        <div className='relative w-full rounded-xl bg-accent-light p-4 px-7 pt-3 text-black/80 shadow-xl'>
+          <div className='flex items-start justify-between text-2xl font-bold tabular-nums'>
+            <div className='flex flex-col items-center'>
+              <p id='day'>00</p>
+              <p className='text-xs font-bold'>Days</p>
+            </div>
+            <p>:</p>
+            <div className='flex flex-col items-center'>
+              <p id='hour'>00</p>
+              <p className='text-xs font-bold'>Hours</p>
+            </div>
+            <p>:</p>
+            <div className='flex flex-col items-center'>
+              <p id='minute'>00</p>
+              <p className='text-xs font-bold'>Minutes</p>
+            </div>
+            <p>:</p>
+            <div className='flex flex-col items-center'>
+              <p id='second'>00</p>
+              <p className='text-xs font-bold'>Second</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className='px-4'>
-        <div className='flex items-center justify-around pb-3 pt-6 text-sm font-semibold'>
+        <div className='flex items-center justify-around pb-3 pt-2 text-sm font-semibold'>
           <a
             className='active w-[45%] border-b-[3px] border-accent-dark py-2 text-center text-black/80 shadow-accent-light/70 active:opacity-70'
             href='https://google.com'
